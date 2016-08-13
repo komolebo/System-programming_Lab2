@@ -1,0 +1,16 @@
+﻿Build started 08.10.2015 22:26:05.
+     1>Project "E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Allocator2\Allocator2.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         E:\MindOfMine\IT\Shells\VS2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Functions.cpp Main.cpp
+         Functions.cpp
+         Main.cpp
+       Link:
+         E:\MindOfMine\IT\Shells\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Release\Allocator2.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Release\Allocator2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Release\Allocator2.lib" /MACHINE:X86 /SAFESEH Release\Functions.obj
+         Release\Main.obj
+     1>Main.obj : error LNK2001: unresolved external symbol "void __cdecl mem_dump(void)" (?mem_dump@@YAXXZ)
+     1>E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Release\Allocator2.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\MindOfMine\OneDrive\Documents\GENERAL\4th-1\SystemProgramming\Solutions\Allocator2\Allocator2\Allocator2.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.21
